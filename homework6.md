@@ -1,13 +1,15 @@
 # 作业-OpenCompass
 ## 基础作业
-使用 OpenCompass 评测 InternLM2-Chat-7B 模型在 C-Eval 数据集上的性能
+使用 OpenCompass 评测 InternLM2-Chat-7B 模型在 C-Eval 数据集上的性能      
 安装：
-下载的时候换源：
 ![Alt text](image.png)
+
 查看支持的数据集和模型：
 ![Alt text](image-1.png)
+
 启动评测：
 ![Alt text](image-3.png)
+
 显存不够，调小max-seq-len和batch-size
 ```bash
 python run.py --datasets ceval_gen \
